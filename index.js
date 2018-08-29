@@ -15,8 +15,8 @@ class URLComponent extends PureComponent {
     onComponentLoaded: PropTypes.func,
     componentProps: PropTypes.object,
     children: PropTypes.oneOfType([
-      React.PropTypes.arrayOf(React.PropTypes.node),
-      React.PropTypes.node
+      PropTypes.arrayOf(PropTypes.node),
+      PropTypes.node
     ]),
   }
 
